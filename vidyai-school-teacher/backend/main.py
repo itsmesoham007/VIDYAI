@@ -30,6 +30,7 @@ except Exception:
 import uvicorn
 import json
 import base64
+import requests
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form, Request, BackgroundTasks, Query
 from fastapi.responses import StreamingResponse, PlainTextResponse
 from fastapi.middleware.cors import CORSMiddleware
