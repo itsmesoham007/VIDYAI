@@ -240,8 +240,8 @@ def safe_eval_math_expr(expr_str: str) -> Optional[float]:
 class TeacherEngine:
     def __init__(self):
         self.api_key = os.getenv("GEMINI_API_KEY", "") or GEMINI_API_KEY
-        self.default_model = os.getenv("GEMINI_MODEL", "") or GEMINI_MODEL or "gemini-3.1-flash-lite"
-        self.fallback_models = ["gemini-3.1-flash-lite", "gemini-3-flash-preview", "gemini-flash-lite-latest"]
+        self.default_model = os.getenv("GEMINI_MODEL", "") or GEMINI_MODEL or "gemini-3.8-flash"
+        self.fallback_models = [self.default_model, "gemini-3.8-flash", "gemini-3.1-flash-lite", "gemini-3-flash-preview", "gemini-flash-lite-latest"]
         self.client = None
         self._init_gemini_client()
 
