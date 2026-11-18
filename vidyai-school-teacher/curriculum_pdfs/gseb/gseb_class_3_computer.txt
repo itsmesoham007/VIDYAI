@@ -1,0 +1,114 @@
+# GSEB Class 3 Computer Studies — Gujarat Board English Medium
+**Official Curriculum Title**: ICT Step 3 - GSEB Class 3
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 3
+**Stream**: Primary
+**Subject**: Computer Studies
+**Academic Tier**: Primary Education (Class 1-5)
+
+---
+
+## Chapter 1: Computer Fundamentals
+- **Syllabus Identifier**: GSEB-ENG-STD03-COM-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 3
+- **Stream**: Primary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Input, processing, output cycle, hardware vs software
+
+### Comprehensive Study Notes: Computer Fundamentals
+
+In GSEB Standard 3 Computer Studies, Chapter 1 investigates: **Input, processing, output cycle, hardware vs software**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Computer Fundamentals.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Input, processing, output cycle, hardware vs software.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 3 Computer Studies Chapter 1 (Computer Fundamentals).
+- **Model Answer**: The chapter establishes core concepts: Input, processing, output cycle, hardware vs software, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Mouse and Keyboard Skills
+- **Syllabus Identifier**: GSEB-ENG-STD03-COM-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 3
+- **Stream**: Primary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Special keys (Enter, Spacebar, Backspace), double click, drag
+
+### Comprehensive Study Notes: Mouse and Keyboard Skills
+
+In GSEB Standard 3 Computer Studies, Chapter 2 investigates: **Special keys (Enter, Spacebar, Backspace), double click, drag**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Mouse and Keyboard Skills.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Special keys (Enter, Spacebar, Backspace), double click, drag.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 3 Computer Studies Chapter 2 (Mouse and Keyboard Skills).
+- **Model Answer**: The chapter establishes core concepts: Special keys (Enter, Spacebar, Backspace), double click, drag, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: Tux Paint & MS Paint
+- **Syllabus Identifier**: GSEB-ENG-STD03-COM-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 3
+- **Stream**: Primary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Drawing tools, brushes, shapes, saving artwork
+
+### Comprehensive Study Notes: Tux Paint & MS Paint
+
+In GSEB Standard 3 Computer Studies, Chapter 3 investigates: **Drawing tools, brushes, shapes, saving artwork**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Tux Paint & MS Paint.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Drawing tools, brushes, shapes, saving artwork.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 3 Computer Studies Chapter 3 (Tux Paint & MS Paint).
+- **Model Answer**: The chapter establishes core concepts: Drawing tools, brushes, shapes, saving artwork, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 4: Do's and Don'ts in Computer Lab
+- **Syllabus Identifier**: GSEB-ENG-STD03-COM-CH04
+- **Board**: GSEB (English Medium)
+- **Standard**: 3
+- **Stream**: Primary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Care, posture, avoiding liquid near electronics
+
+### Comprehensive Study Notes: Do's and Don'ts in Computer Lab
+
+In GSEB Standard 3 Computer Studies, Chapter 4 investigates: **Care, posture, avoiding liquid near electronics**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Do's and Don'ts in Computer Lab.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Care, posture, avoiding liquid near electronics.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 3 Computer Studies Chapter 4 (Do's and Don'ts in Computer Lab).
+- **Model Answer**: The chapter establishes core concepts: Care, posture, avoiding liquid near electronics, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---

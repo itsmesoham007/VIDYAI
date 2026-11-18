@@ -1,0 +1,140 @@
+# GSEB Class 10 Computer Studies — Gujarat Board English Medium
+**Official Curriculum Title**: Computer Studies - GSEB Class 10
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 10
+**Stream**: Secondary
+**Subject**: Computer Studies
+**Academic Tier**: Secondary SSC Board (Class 9-10)
+
+---
+
+## Chapter 1: HTML Forms and Tables
+- **Syllabus Identifier**: GSEB-ENG-STD10-COM-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 10
+- **Stream**: Secondary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: form, input, select, textarea tags, creating structured web forms with submit and reset buttons
+
+### Comprehensive Study Notes: HTML Forms and Tables
+
+In GSEB Standard 10 Computer Studies, Chapter 1 investigates: **form, input, select, textarea tags, creating structured web forms with submit and reset buttons**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing HTML Forms and Tables.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: form, input, select, textarea tags, creating structured web forms with submit and reset buttons.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 10 Computer Studies Chapter 1 (HTML Forms and Tables).
+- **Model Answer**: The chapter establishes core concepts: form, input, select, textarea tags, creating structured web forms with submit and reset buttons, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Cascading Style Sheets (CSS)
+- **Syllabus Identifier**: GSEB-ENG-STD10-COM-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 10
+- **Stream**: Secondary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Inline, internal, and external CSS, font, color, border, and margin styling properties
+
+### Comprehensive Study Notes: Cascading Style Sheets (CSS)
+
+In GSEB Standard 10 Computer Studies, Chapter 2 investigates: **Inline, internal, and external CSS, font, color, border, and margin styling properties**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Cascading Style Sheets (CSS).
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Inline, internal, and external CSS, font, color, border, and margin styling properties.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 10 Computer Studies Chapter 2 (Cascading Style Sheets (CSS)).
+- **Model Answer**: The chapter establishes core concepts: Inline, internal, and external CSS, font, color, border, and margin styling properties, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: Introduction to JavaScript
+- **Syllabus Identifier**: GSEB-ENG-STD10-COM-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 10
+- **Stream**: Secondary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Variables, data types, conditional if-else, while loop, alert and prompt boxes in web pages
+
+### Comprehensive Study Notes: Introduction to JavaScript
+
+In GSEB Standard 10 Computer Studies, Chapter 3 investigates: **Variables, data types, conditional if-else, while loop, alert and prompt boxes in web pages**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Introduction to JavaScript.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Variables, data types, conditional if-else, while loop, alert and prompt boxes in web pages.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 10 Computer Studies Chapter 3 (Introduction to JavaScript).
+- **Model Answer**: The chapter establishes core concepts: Variables, data types, conditional if-else, while loop, alert and prompt boxes in web pages, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 4: Object Oriented Programming in C
+- **Syllabus Identifier**: GSEB-ENG-STD10-COM-CH04
+- **Board**: GSEB (English Medium)
+- **Standard**: 10
+- **Stream**: Secondary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Procedural vs OOP paradigms, data abstraction, encapsulation, inheritance intro
+
+### Comprehensive Study Notes: Object Oriented Programming in C
+
+In GSEB Standard 10 Computer Studies, Chapter 4 investigates: **Procedural vs OOP paradigms, data abstraction, encapsulation, inheritance intro**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Object Oriented Programming in C.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Procedural vs OOP paradigms, data abstraction, encapsulation, inheritance intro.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 10 Computer Studies Chapter 4 (Object Oriented Programming in C).
+- **Model Answer**: The chapter establishes core concepts: Procedural vs OOP paradigms, data abstraction, encapsulation, inheritance intro, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 5: Basics of C Programming
+- **Syllabus Identifier**: GSEB-ENG-STD10-COM-CH05
+- **Board**: GSEB (English Medium)
+- **Standard**: 10
+- **Stream**: Secondary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Data types (int, float, char), operators, scanf and printf I/O, control structures
+
+### Comprehensive Study Notes: Basics of C Programming
+
+In GSEB Standard 10 Computer Studies, Chapter 5 investigates: **Data types (int, float, char), operators, scanf and printf I/O, control structures**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Basics of C Programming.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Data types (int, float, char), operators, scanf and printf I/O, control structures.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 10 Computer Studies Chapter 5 (Basics of C Programming).
+- **Model Answer**: The chapter establishes core concepts: Data types (int, float, char), operators, scanf and printf I/O, control structures, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---

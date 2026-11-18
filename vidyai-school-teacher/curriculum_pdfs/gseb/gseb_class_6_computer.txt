@@ -1,0 +1,88 @@
+# GSEB Class 6 Computer Studies — Gujarat Board English Medium
+**Official Curriculum Title**: Information Technology - GSEB Class 6
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 6
+**Stream**: Middle
+**Subject**: Computer Studies
+**Academic Tier**: Middle School (Class 6-8)
+
+---
+
+## Chapter 1: Computer Networks & Internet
+- **Syllabus Identifier**: GSEB-ENG-STD06-COM-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 6
+- **Stream**: Middle
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: LAN, WAN, MAN, web browsers, search engines, email etiquette
+
+### Comprehensive Study Notes: Computer Networks & Internet
+
+In GSEB Standard 6 Computer Studies, Chapter 1 investigates: **LAN, WAN, MAN, web browsers, search engines, email etiquette**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Computer Networks & Internet.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: LAN, WAN, MAN, web browsers, search engines, email etiquette.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 6 Computer Studies Chapter 1 (Computer Networks & Internet).
+- **Model Answer**: The chapter establishes core concepts: LAN, WAN, MAN, web browsers, search engines, email etiquette, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Spreadsheets in MS Excel
+- **Syllabus Identifier**: GSEB-ENG-STD06-COM-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 6
+- **Stream**: Middle
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Rows, columns, cells, basic formulas (SUM, AVERAGE, MIN, MAX)
+
+### Comprehensive Study Notes: Spreadsheets in MS Excel
+
+In GSEB Standard 6 Computer Studies, Chapter 2 investigates: **Rows, columns, cells, basic formulas (SUM, AVERAGE, MIN, MAX)**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Spreadsheets in MS Excel.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Rows, columns, cells, basic formulas (SUM, AVERAGE, MIN, MAX).
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 6 Computer Studies Chapter 2 (Spreadsheets in MS Excel).
+- **Model Answer**: The chapter establishes core concepts: Rows, columns, cells, basic formulas (SUM, AVERAGE, MIN, MAX), preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: Intro to Python Programming
+- **Syllabus Identifier**: GSEB-ENG-STD06-COM-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 6
+- **Stream**: Middle
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Print statement, variables, integer vs string data types, basic math operations
+
+### Comprehensive Study Notes: Intro to Python Programming
+
+In GSEB Standard 6 Computer Studies, Chapter 3 investigates: **Print statement, variables, integer vs string data types, basic math operations**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Intro to Python Programming.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Print statement, variables, integer vs string data types, basic math operations.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 6 Computer Studies Chapter 3 (Intro to Python Programming).
+- **Model Answer**: The chapter establishes core concepts: Print statement, variables, integer vs string data types, basic math operations, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---

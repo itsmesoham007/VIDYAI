@@ -1,0 +1,114 @@
+# GSEB Class 12 Statistics Part 1 — Gujarat Board English Medium
+**Official Curriculum Title**: GSEB Statistics Part 1 Class 12
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 12
+**Stream**: Commerce
+**Subject**: Statistics Part 1
+**Academic Tier**: Higher Secondary HSC Board & GUJCET (Commerce Stream, Class 11-12)
+
+---
+
+## Chapter 1: Index Numbers
+- **Syllabus Identifier**: GSEB-ENG-STD12-STA-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 12
+- **Stream**: Commerce
+- **Subject**: Statistics Part 1
+- **Core Concepts & Learning Outcomes**: Base year selection (fixed vs chain base), Laspeyres, Paasche, and Fisher ideal index numbers, cost of living index number
+
+### Comprehensive Study Notes: Index Numbers
+
+In GSEB Standard 12 Statistics Part 1, Chapter 1 investigates: **Base year selection (fixed vs chain base), Laspeyres, Paasche, and Fisher ideal index numbers, cost of living index number**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Index Numbers.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Base year selection (fixed vs chain base), Laspeyres, Paasche, and Fisher ideal index numbers, cost of living index number.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 12 Statistics Part 1 Chapter 1 (Index Numbers).
+- **Model Answer**: The chapter establishes core concepts: Base year selection (fixed vs chain base), Laspeyres, Paasche, and Fisher ideal index numbers, cost of living index number, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Linear Correlation
+- **Syllabus Identifier**: GSEB-ENG-STD12-STA-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 12
+- **Stream**: Commerce
+- **Subject**: Statistics Part 1
+- **Core Concepts & Learning Outcomes**: Scatter diagram method, Karl Pearson product-moment correlation coefficient r, Spearman rank correlation with tied ranks
+
+### Comprehensive Study Notes: Linear Correlation
+
+In GSEB Standard 12 Statistics Part 1, Chapter 2 investigates: **Scatter diagram method, Karl Pearson product-moment correlation coefficient r, Spearman rank correlation with tied ranks**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Linear Correlation.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Scatter diagram method, Karl Pearson product-moment correlation coefficient r, Spearman rank correlation with tied ranks.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 12 Statistics Part 1 Chapter 2 (Linear Correlation).
+- **Model Answer**: The chapter establishes core concepts: Scatter diagram method, Karl Pearson product-moment correlation coefficient r, Spearman rank correlation with tied ranks, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: Linear Regression
+- **Syllabus Identifier**: GSEB-ENG-STD12-STA-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 12
+- **Stream**: Commerce
+- **Subject**: Statistics Part 1
+- **Core Concepts & Learning Outcomes**: Regression line of Y on X, least squares estimation of regression coefficients b and a, coefficient of determination R^2
+
+### Comprehensive Study Notes: Linear Regression
+
+In GSEB Standard 12 Statistics Part 1, Chapter 3 investigates: **Regression line of Y on X, least squares estimation of regression coefficients b and a, coefficient of determination R^2**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Linear Regression.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Regression line of Y on X, least squares estimation of regression coefficients b and a, coefficient of determination R^2.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 12 Statistics Part 1 Chapter 3 (Linear Regression).
+- **Model Answer**: The chapter establishes core concepts: Regression line of Y on X, least squares estimation of regression coefficients b and a, coefficient of determination R^2, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 4: Time Series Analysis
+- **Syllabus Identifier**: GSEB-ENG-STD12-STA-CH04
+- **Board**: GSEB (English Medium)
+- **Standard**: 12
+- **Stream**: Commerce
+- **Subject**: Statistics Part 1
+- **Core Concepts & Learning Outcomes**: Components of time series (trend, seasonal, cyclical, irregular), moving averages method (3-year, 4-year, 5-year), method of least squares
+
+### Comprehensive Study Notes: Time Series Analysis
+
+In GSEB Standard 12 Statistics Part 1, Chapter 4 investigates: **Components of time series (trend, seasonal, cyclical, irregular), moving averages method (3-year, 4-year, 5-year), method of least squares**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Time Series Analysis.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Components of time series (trend, seasonal, cyclical, irregular), moving averages method (3-year, 4-year, 5-year), method of least squares.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 12 Statistics Part 1 Chapter 4 (Time Series Analysis).
+- **Model Answer**: The chapter establishes core concepts: Components of time series (trend, seasonal, cyclical, irregular), moving averages method (3-year, 4-year, 5-year), method of least squares, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---

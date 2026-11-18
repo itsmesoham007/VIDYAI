@@ -1,0 +1,88 @@
+# GSEB Class 7 Computer Studies — Gujarat Board English Medium
+**Official Curriculum Title**: Computing Essentials - GSEB Class 7
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 7
+**Stream**: Middle
+**Subject**: Computer Studies
+**Academic Tier**: Middle School (Class 6-8)
+
+---
+
+## Chapter 1: Database Concepts & MS Access
+- **Syllabus Identifier**: GSEB-ENG-STD07-COM-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 7
+- **Stream**: Middle
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Tables, records, fields, primary key concept, queries
+
+### Comprehensive Study Notes: Database Concepts & MS Access
+
+In GSEB Standard 7 Computer Studies, Chapter 1 investigates: **Tables, records, fields, primary key concept, queries**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Database Concepts & MS Access.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Tables, records, fields, primary key concept, queries.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 7 Computer Studies Chapter 1 (Database Concepts & MS Access).
+- **Model Answer**: The chapter establishes core concepts: Tables, records, fields, primary key concept, queries, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Computer Viruses & Cyber Security
+- **Syllabus Identifier**: GSEB-ENG-STD07-COM-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 7
+- **Stream**: Middle
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Trojan horse, worms, spyware, antivirus protection, firewall
+
+### Comprehensive Study Notes: Computer Viruses & Cyber Security
+
+In GSEB Standard 7 Computer Studies, Chapter 2 investigates: **Trojan horse, worms, spyware, antivirus protection, firewall**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Computer Viruses & Cyber Security.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Trojan horse, worms, spyware, antivirus protection, firewall.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 7 Computer Studies Chapter 2 (Computer Viruses & Cyber Security).
+- **Model Answer**: The chapter establishes core concepts: Trojan horse, worms, spyware, antivirus protection, firewall, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: HTML Web Page Creation
+- **Syllabus Identifier**: GSEB-ENG-STD07-COM-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 7
+- **Stream**: Middle
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Tags: html, head, title, body, headings h1-h6, font, img, anchor links
+
+### Comprehensive Study Notes: HTML Web Page Creation
+
+In GSEB Standard 7 Computer Studies, Chapter 3 investigates: **Tags: html, head, title, body, headings h1-h6, font, img, anchor links**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing HTML Web Page Creation.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Tags: html, head, title, body, headings h1-h6, font, img, anchor links.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 7 Computer Studies Chapter 3 (HTML Web Page Creation).
+- **Model Answer**: The chapter establishes core concepts: Tags: html, head, title, body, headings h1-h6, font, img, anchor links, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---

@@ -1,0 +1,114 @@
+# GSEB Class 4 Computer Studies — Gujarat Board English Medium
+**Official Curriculum Title**: ICT Step 4 - GSEB Class 4
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 4
+**Stream**: Primary
+**Subject**: Computer Studies
+**Academic Tier**: Primary Education (Class 1-5)
+
+---
+
+## Chapter 1: Operating Systems and Windows Basics
+- **Syllabus Identifier**: GSEB-ENG-STD04-COM-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 4
+- **Stream**: Primary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Desktop, taskbar, icons, managing files and folders
+
+### Comprehensive Study Notes: Operating Systems and Windows Basics
+
+In GSEB Standard 4 Computer Studies, Chapter 1 investigates: **Desktop, taskbar, icons, managing files and folders**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Operating Systems and Windows Basics.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Desktop, taskbar, icons, managing files and folders.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 4 Computer Studies Chapter 1 (Operating Systems and Windows Basics).
+- **Model Answer**: The chapter establishes core concepts: Desktop, taskbar, icons, managing files and folders, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Word Processing in MS Word
+- **Syllabus Identifier**: GSEB-ENG-STD04-COM-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 4
+- **Stream**: Primary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Font styling, bold/italic, alignment, bulleted lists
+
+### Comprehensive Study Notes: Word Processing in MS Word
+
+In GSEB Standard 4 Computer Studies, Chapter 2 investigates: **Font styling, bold/italic, alignment, bulleted lists**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Word Processing in MS Word.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Font styling, bold/italic, alignment, bulleted lists.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 4 Computer Studies Chapter 2 (Word Processing in MS Word).
+- **Model Answer**: The chapter establishes core concepts: Font styling, bold/italic, alignment, bulleted lists, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: Safe Internet Browsing
+- **Syllabus Identifier**: GSEB-ENG-STD04-COM-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 4
+- **Stream**: Primary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Search engines, educational websites, safe digital habits
+
+### Comprehensive Study Notes: Safe Internet Browsing
+
+In GSEB Standard 4 Computer Studies, Chapter 3 investigates: **Search engines, educational websites, safe digital habits**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Safe Internet Browsing.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Search engines, educational websites, safe digital habits.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 4 Computer Studies Chapter 3 (Safe Internet Browsing).
+- **Model Answer**: The chapter establishes core concepts: Search engines, educational websites, safe digital habits, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 4: Logical Thinking and Problem Solving
+- **Syllabus Identifier**: GSEB-ENG-STD04-COM-CH04
+- **Board**: GSEB (English Medium)
+- **Standard**: 4
+- **Stream**: Primary
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Step-by-step algorithms, puzzles, directional coding
+
+### Comprehensive Study Notes: Logical Thinking and Problem Solving
+
+In GSEB Standard 4 Computer Studies, Chapter 4 investigates: **Step-by-step algorithms, puzzles, directional coding**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Logical Thinking and Problem Solving.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Step-by-step algorithms, puzzles, directional coding.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 4 Computer Studies Chapter 4 (Logical Thinking and Problem Solving).
+- **Model Answer**: The chapter establishes core concepts: Step-by-step algorithms, puzzles, directional coding, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---

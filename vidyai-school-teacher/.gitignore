@@ -1,0 +1,73 @@
+# ==============================================================================
+# VidyAI — GSEB English Medium Security .gitignore
+# Strictly prevents API keys, secrets, build artifacts, and databases from leaking
+# ==============================================================================
+
+# --- Critical Security & Environment Secrets (NEVER COMMIT) ---
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+*.env.production
+*.env.development
+backend/.env
+frontend/.env*
+*.key
+*.pem
+*.cert
+*.pfx
+
+# --- Node.js & Next.js Build Artifacts ---
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+**/.next/
+out/
+**/out/
+build/
+**/build/
+dist/
+**/dist/
+.turbo/
+
+# --- Python & FastAPI Artifacts ---
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Persistent Databases & Vector Stores ---
+backend/data/*.db
+*.sqlite
+*.sqlite3
+chroma_data/
+.chromadb/
+
+# --- Operating System & Editor Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Large Archives ---
+*.zip
+*.tar.gz

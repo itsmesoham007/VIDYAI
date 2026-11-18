@@ -1,0 +1,83 @@
+# GSEB Class 11 Computer Studies — Gujarat Board English Medium
+**Official Curriculum Title**: Computer Studies / Informatics - GSEB Class 11
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 11
+**Academic Tier**: Higher Secondary HSC Board & GUJCET (Class 11-12)
+
+---
+
+## Chapter 1: Problem Solving & Python Fundamentals
+- **Syllabus Identifier**: GSEB-ENG-STD11-COM-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 11
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Algorithms, flowcharts, variables, primitive data types (int, float, string, boolean), operators and expressions
+
+### Comprehensive Study Notes: Problem Solving & Python Fundamentals
+
+In GSEB Standard 11 Computer Studies, Chapter 1 investigates: **Algorithms, flowcharts, variables, primitive data types (int, float, string, boolean), operators and expressions**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Problem Solving & Python Fundamentals.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Algorithms, flowcharts, variables, primitive data types (int, float, string, boolean), operators and expressions.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 11 Computer Studies Chapter 1 (Problem Solving & Python Fundamentals).
+- **Model Answer**: The chapter establishes core concepts: Algorithms, flowcharts, variables, primitive data types (int, float, string, boolean), operators and expressions, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Flow of Control in Python
+- **Syllabus Identifier**: GSEB-ENG-STD11-COM-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 11
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Conditional branching (if, if-else, if-elif-else), loops (for loop with range(), while loop), break and continue
+
+### Comprehensive Study Notes: Flow of Control in Python
+
+In GSEB Standard 11 Computer Studies, Chapter 2 investigates: **Conditional branching (if, if-else, if-elif-else), loops (for loop with range(), while loop), break and continue**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Flow of Control in Python.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Conditional branching (if, if-else, if-elif-else), loops (for loop with range(), while loop), break and continue.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 11 Computer Studies Chapter 2 (Flow of Control in Python).
+- **Model Answer**: The chapter establishes core concepts: Conditional branching (if, if-else, if-elif-else), loops (for loop with range(), while loop), break and continue, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: Strings and Lists in Python
+- **Syllabus Identifier**: GSEB-ENG-STD11-COM-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 11
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: String slicing, list methods (append, insert, remove, sort), indexing, list traversal
+
+### Comprehensive Study Notes: Strings and Lists in Python
+
+In GSEB Standard 11 Computer Studies, Chapter 3 investigates: **String slicing, list methods (append, insert, remove, sort), indexing, list traversal**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Strings and Lists in Python.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: String slicing, list methods (append, insert, remove, sort), indexing, list traversal.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 11 Computer Studies Chapter 3 (Strings and Lists in Python).
+- **Model Answer**: The chapter establishes core concepts: String slicing, list methods (append, insert, remove, sort), indexing, list traversal, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---

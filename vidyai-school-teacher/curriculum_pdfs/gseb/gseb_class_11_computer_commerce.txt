@@ -1,0 +1,88 @@
+# GSEB Class 11 Computer Studies — Gujarat Board English Medium
+**Official Curriculum Title**: Computer Studies - GSEB Class 11 Commerce
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 11
+**Stream**: Commerce
+**Subject**: Computer Studies
+**Academic Tier**: Higher Secondary HSC Board & GUJCET (Commerce Stream, Class 11-12)
+
+---
+
+## Chapter 1: Database Management in LibreOffice Base
+- **Syllabus Identifier**: GSEB-ENG-STD11-COM-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 11
+- **Stream**: Commerce
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Tables, primary key, relationships, forms, queries, and reports for commercial transactions
+
+### Comprehensive Study Notes: Database Management in LibreOffice Base
+
+In GSEB Standard 11 Computer Studies, Chapter 1 investigates: **Tables, primary key, relationships, forms, queries, and reports for commercial transactions**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Database Management in LibreOffice Base.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Tables, primary key, relationships, forms, queries, and reports for commercial transactions.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 11 Computer Studies Chapter 1 (Database Management in LibreOffice Base).
+- **Model Answer**: The chapter establishes core concepts: Tables, primary key, relationships, forms, queries, and reports for commercial transactions, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Financial Modeling in Spreadsheets
+- **Syllabus Identifier**: GSEB-ENG-STD11-COM-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 11
+- **Stream**: Commerce
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Formulas for loan amortization PMT, future value FV, net present value NPV, depreciation SLN
+
+### Comprehensive Study Notes: Financial Modeling in Spreadsheets
+
+In GSEB Standard 11 Computer Studies, Chapter 2 investigates: **Formulas for loan amortization PMT, future value FV, net present value NPV, depreciation SLN**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Financial Modeling in Spreadsheets.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Formulas for loan amortization PMT, future value FV, net present value NPV, depreciation SLN.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 11 Computer Studies Chapter 2 (Financial Modeling in Spreadsheets).
+- **Model Answer**: The chapter establishes core concepts: Formulas for loan amortization PMT, future value FV, net present value NPV, depreciation SLN, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: E-Commerce Infrastructure and Security
+- **Syllabus Identifier**: GSEB-ENG-STD11-COM-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 11
+- **Stream**: Commerce
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: E-commerce models B2B, B2C, payment gateways, SSL certificates, cyber security protocols
+
+### Comprehensive Study Notes: E-Commerce Infrastructure and Security
+
+In GSEB Standard 11 Computer Studies, Chapter 3 investigates: **E-commerce models B2B, B2C, payment gateways, SSL certificates, cyber security protocols**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing E-Commerce Infrastructure and Security.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: E-commerce models B2B, B2C, payment gateways, SSL certificates, cyber security protocols.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 11 Computer Studies Chapter 3 (E-Commerce Infrastructure and Security).
+- **Model Answer**: The chapter establishes core concepts: E-commerce models B2B, B2C, payment gateways, SSL certificates, cyber security protocols, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---

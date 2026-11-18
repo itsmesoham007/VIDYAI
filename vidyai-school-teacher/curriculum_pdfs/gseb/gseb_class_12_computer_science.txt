@@ -1,0 +1,88 @@
+# GSEB Class 12 Computer Studies — Gujarat Board English Medium
+**Official Curriculum Title**: Computer Studies - GSEB Class 12 Science
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 12
+**Stream**: Science
+**Subject**: Computer Studies
+**Academic Tier**: Higher Secondary HSC Board & GUJCET (Science Stream, Class 11-12)
+
+---
+
+## Chapter 1: Object-Oriented Programming with Java
+- **Syllabus Identifier**: GSEB-ENG-STD12-COM-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 12
+- **Stream**: Science
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Classes, objects, constructors, method overloading, encapsulation, this keyword
+
+### Comprehensive Study Notes: Object-Oriented Programming with Java
+
+In GSEB Standard 12 Computer Studies, Chapter 1 investigates: **Classes, objects, constructors, method overloading, encapsulation, this keyword**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Object-Oriented Programming with Java.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Classes, objects, constructors, method overloading, encapsulation, this keyword.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 12 Computer Studies Chapter 1 (Object-Oriented Programming with Java).
+- **Model Answer**: The chapter establishes core concepts: Classes, objects, constructors, method overloading, encapsulation, this keyword, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Inheritance, Polymorphism and Interfaces in Java
+- **Syllabus Identifier**: GSEB-ENG-STD12-COM-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 12
+- **Stream**: Science
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: extends keyword, super keyword, abstract classes, interfaces, method overriding, runtime polymorphism
+
+### Comprehensive Study Notes: Inheritance, Polymorphism and Interfaces in Java
+
+In GSEB Standard 12 Computer Studies, Chapter 2 investigates: **extends keyword, super keyword, abstract classes, interfaces, method overriding, runtime polymorphism**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Inheritance, Polymorphism and Interfaces in Java.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: extends keyword, super keyword, abstract classes, interfaces, method overriding, runtime polymorphism.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 12 Computer Studies Chapter 2 (Inheritance, Polymorphism and Interfaces in Java).
+- **Model Answer**: The chapter establishes core concepts: extends keyword, super keyword, abstract classes, interfaces, method overriding, runtime polymorphism, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: Exception Handling, File I/O and Networking in Java
+- **Syllabus Identifier**: GSEB-ENG-STD12-COM-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 12
+- **Stream**: Science
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: try, catch, finally, throw, throws; FileInputStream, FileOutputStream, TCP socket basics, Information Technology Act 2000
+
+### Comprehensive Study Notes: Exception Handling, File I/O and Networking in Java
+
+In GSEB Standard 12 Computer Studies, Chapter 3 investigates: **try, catch, finally, throw, throws; FileInputStream, FileOutputStream, TCP socket basics, Information Technology Act 2000**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Exception Handling, File I/O and Networking in Java.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: try, catch, finally, throw, throws; FileInputStream, FileOutputStream, TCP socket basics, Information Technology Act 2000.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 12 Computer Studies Chapter 3 (Exception Handling, File I/O and Networking in Java).
+- **Model Answer**: The chapter establishes core concepts: try, catch, finally, throw, throws; FileInputStream, FileOutputStream, TCP socket basics, Information Technology Act 2000, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---

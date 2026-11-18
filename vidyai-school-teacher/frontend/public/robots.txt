@@ -1,0 +1,8 @@
+# VidyAI GSEB English Medium Student Portal
+# Allows all search engine crawlers (Googlebot, Bingbot, etc.) to index the site
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vidyai.vercel.app/sitemap.xml

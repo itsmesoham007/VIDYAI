@@ -1,0 +1,88 @@
+# GSEB Class 8 Computer Studies — Gujarat Board English Medium
+**Official Curriculum Title**: Web Technologies & Coding - GSEB Class 8
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 8
+**Stream**: Middle
+**Subject**: Computer Studies
+**Academic Tier**: Middle School (Class 6-8)
+
+---
+
+## Chapter 1: HTML5 and Advanced CSS Styling
+- **Syllabus Identifier**: GSEB-ENG-STD08-COM-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 8
+- **Stream**: Middle
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Tables, forms, input types, CSS selectors, box model
+
+### Comprehensive Study Notes: HTML5 and Advanced CSS Styling
+
+In GSEB Standard 8 Computer Studies, Chapter 1 investigates: **Tables, forms, input types, CSS selectors, box model**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing HTML5 and Advanced CSS Styling.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Tables, forms, input types, CSS selectors, box model.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 8 Computer Studies Chapter 1 (HTML5 and Advanced CSS Styling).
+- **Model Answer**: The chapter establishes core concepts: Tables, forms, input types, CSS selectors, box model, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Introduction to JavaScript
+- **Syllabus Identifier**: GSEB-ENG-STD08-COM-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 8
+- **Stream**: Middle
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Variables, alert dialogs, functions, DOM element manipulation
+
+### Comprehensive Study Notes: Introduction to JavaScript
+
+In GSEB Standard 8 Computer Studies, Chapter 2 investigates: **Variables, alert dialogs, functions, DOM element manipulation**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Introduction to JavaScript.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Variables, alert dialogs, functions, DOM element manipulation.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 8 Computer Studies Chapter 2 (Introduction to JavaScript).
+- **Model Answer**: The chapter establishes core concepts: Variables, alert dialogs, functions, DOM element manipulation, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: Python Control Structures
+- **Syllabus Identifier**: GSEB-ENG-STD08-COM-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 8
+- **Stream**: Middle
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: if-elif-else branching, for loops, while loops, range() function
+
+### Comprehensive Study Notes: Python Control Structures
+
+In GSEB Standard 8 Computer Studies, Chapter 3 investigates: **if-elif-else branching, for loops, while loops, range() function**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Python Control Structures.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: if-elif-else branching, for loops, while loops, range() function.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 8 Computer Studies Chapter 3 (Python Control Structures).
+- **Model Answer**: The chapter establishes core concepts: if-elif-else branching, for loops, while loops, range() function, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---

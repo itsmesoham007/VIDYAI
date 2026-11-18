@@ -1,0 +1,88 @@
+# GSEB Class 11 Computer Studies — Gujarat Board English Medium
+**Official Curriculum Title**: Computer Studies - GSEB Class 11 Science
+**Board**: GSEB (Gujarat Secondary and Higher Secondary Education Board)
+**Medium**: English Medium ONLY
+**Standard**: Standard 11
+**Stream**: Science
+**Subject**: Computer Studies
+**Academic Tier**: Higher Secondary HSC Board & GUJCET (Science Stream, Class 11-12)
+
+---
+
+## Chapter 1: Advanced C Programming and Pointers
+- **Syllabus Identifier**: GSEB-ENG-STD11-COM-CH01
+- **Board**: GSEB (English Medium)
+- **Standard**: 11
+- **Stream**: Science
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Pointers, pointer arithmetic, passing pointers to functions, dynamic memory allocation malloc and free
+
+### Comprehensive Study Notes: Advanced C Programming and Pointers
+
+In GSEB Standard 11 Computer Studies, Chapter 1 investigates: **Pointers, pointer arithmetic, passing pointers to functions, dynamic memory allocation malloc and free**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Advanced C Programming and Pointers.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Pointers, pointer arithmetic, passing pointers to functions, dynamic memory allocation malloc and free.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 11 Computer Studies Chapter 1 (Advanced C Programming and Pointers).
+- **Model Answer**: The chapter establishes core concepts: Pointers, pointer arithmetic, passing pointers to functions, dynamic memory allocation malloc and free, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 2: Structures, Unions and File I/O
+- **Syllabus Identifier**: GSEB-ENG-STD11-COM-CH02
+- **Board**: GSEB (English Medium)
+- **Standard**: 11
+- **Stream**: Science
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Defining structures, nested structures, array of structures, text and binary file processing in C
+
+### Comprehensive Study Notes: Structures, Unions and File I/O
+
+In GSEB Standard 11 Computer Studies, Chapter 2 investigates: **Defining structures, nested structures, array of structures, text and binary file processing in C**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Structures, Unions and File I/O.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Defining structures, nested structures, array of structures, text and binary file processing in C.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 11 Computer Studies Chapter 2 (Structures, Unions and File I/O).
+- **Model Answer**: The chapter establishes core concepts: Defining structures, nested structures, array of structures, text and binary file processing in C, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
+
+## Chapter 3: Boolean Logic and Digital Circuits
+- **Syllabus Identifier**: GSEB-ENG-STD11-COM-CH03
+- **Board**: GSEB (English Medium)
+- **Standard**: 11
+- **Stream**: Science
+- **Subject**: Computer Studies
+- **Core Concepts & Learning Outcomes**: Boolean postulates, De Morgan laws, logic gates AND, OR, NOT, NAND, NOR, XOR, Karnaugh map simplification
+
+### Comprehensive Study Notes: Boolean Logic and Digital Circuits
+
+In GSEB Standard 11 Computer Studies, Chapter 3 investigates: **Boolean postulates, De Morgan laws, logic gates AND, OR, NOT, NAND, NOR, XOR, Karnaugh map simplification**.
+
+#### Core Principles & Educational Foundation:
+1. **Conceptual Definition**: Students explore the foundational definitions, scientific/historical principles, and logical frameworks governing Boolean Logic and Digital Circuits.
+2. **Detailed Curriculum Scope**: Focuses strictly on the prescribed Gujarat Board GSSTB English Medium syllabus. Key topics include: Boolean postulates, De Morgan laws, logic gates AND, OR, NOT, NAND, NOR, XOR, Karnaugh map simplification.
+3. **Practical & Exam Application**: Concepts are linked to everyday life in Gujarat, solved textbook examples, diagrams, and Board exam question formats.
+
+
+### GSEB Board Examination Focus & High-Yield Q&A:
+
+**GSEB 2-Mark Question**: State the main learning outcome of Standard 11 Computer Studies Chapter 3 (Boolean Logic and Digital Circuits).
+- **Model Answer**: The chapter establishes core concepts: Boolean postulates, De Morgan laws, logic gates AND, OR, NOT, NAND, NOR, XOR, Karnaugh map simplification, preparing students for Board assessments with accurate definitions and problem-solving steps.
+
+
+---
