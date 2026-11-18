@@ -13,6 +13,7 @@ import re
 import json
 import base64
 import requests
+from datetime import datetime
 from typing import Dict, Any, List, Optional, Tuple
 from collections import deque
 
@@ -38,6 +39,21 @@ GRAPH_API_URL = f"https://graph.facebook.com/{WHATSAPP_API_VERSION}"
 
 # Cache of recently processed message IDs (avoids duplicate processing on webhook retries)
 _PROCESSED_MESSAGE_IDS = deque(maxlen=2000)
+
+# In-memory diagnostics event buffer (stores recent inbound & outbound events and Meta delivery statuses)
+_RECENT_EVENTS = deque(maxlen=100)
+
+def log_whatsapp_event(event_type: str, data: Dict[str, Any]):
+    """Records an internal WhatsApp event with ISO timestamp."""
+    _RECENT_EVENTS.append({
+        "timestamp": datetime.utcnow().isoformat(),
+        "type": event_type,
+        "data": data
+    })
+
+def get_recent_whatsapp_events() -> List[Dict[str, Any]]:
+    """Returns a list of recent webhook events, delivery receipts, and outbound logs."""
+    return list(_RECENT_EVENTS)
 
 
 # ============================================================================
@@ -321,10 +337,24 @@ class WhatsAppClient:
 
             try:
                 resp = requests.post(endpoint, headers=headers, json=payload, timeout=12)
+                resp_data: Any = {}
+                try:
+                    resp_data = resp.json()
+                except Exception:
+                    resp_data = {"raw": resp.text[:200]}
+
+                log_whatsapp_event("outbound_text_attempt", {
+                    "to": clean_to,
+                    "status_code": resp.status_code,
+                    "meta_response": resp_data,
+                    "preview": chunk[:80]
+                })
+
                 if resp.status_code not in (200, 201):
                     print(f"[WhatsAppClient Error] HTTP {resp.status_code}: {resp.text}")
                     all_success = False
             except Exception as e:
+                log_whatsapp_event("outbound_text_exception", {"to": clean_to, "error": str(e)})
                 print(f"[WhatsAppClient Exception] Failed to send message chunk: {e}")
                 all_success = False
 
@@ -507,6 +537,7 @@ def process_whatsapp_event(payload: Dict[str, Any]) -> bool:
     Handles onboarding, text doubts, photo doubts, and interactive menu selections.
     """
     try:
+        log_whatsapp_event("raw_webhook_payload", payload)
         entry = payload.get("entry", [])
         if not entry:
             return True
@@ -517,6 +548,18 @@ def process_whatsapp_event(payload: Dict[str, Any]) -> bool:
                 value = change.get("value", {})
                 messages = value.get("messages", [])
                 contacts = value.get("contacts", [])
+                statuses = value.get("statuses", [])
+
+                if statuses:
+                    for s in statuses:
+                        log_whatsapp_event("status_update", {
+                            "id": s.get("id"),
+                            "status": s.get("status"),
+                            "recipient_id": s.get("recipient_id"),
+                            "errors": s.get("errors", []),
+                            "conversation": s.get("conversation", {})
+                        })
+                        print(f"[WhatsApp Webhook Status] id={s.get('id')} status={s.get('status')} errors={s.get('errors')}")
 
                 if not messages:
                     # Ignore status updates (sent, delivered, read receipts)

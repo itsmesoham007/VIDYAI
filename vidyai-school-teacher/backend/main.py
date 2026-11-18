@@ -693,6 +693,16 @@ def trigger_whatsapp_test_send(to: str = "919429944265"):
         data = resp.text
     return {"status_code": resp.status_code, "meta_response": data}
 
+@app.get("/api/whatsapp/events")
+def get_whatsapp_events():
+    """Returns the most recent WhatsApp webhook events, outbound logs, and delivery statuses."""
+    from whatsapp_service import get_recent_whatsapp_events
+    events = get_recent_whatsapp_events()
+    return {
+        "count": len(events),
+        "events": events
+    }
+
 @app.post("/api/whatsapp/simulate")
 async def simulate_whatsapp_message(
     from_number: str = "919876543210",
