@@ -662,15 +662,35 @@ async def handle_whatsapp_webhook(request: Request, background_tasks: Background
 @app.get("/api/whatsapp/status")
 def get_whatsapp_status():
     """Returns configuration and health diagnostics for WhatsApp integration."""
+    token_preview = f"{WHATSAPP_TOKEN[:12]}...{WHATSAPP_TOKEN[-6:]}" if WHATSAPP_TOKEN else "none"
     return {
         "status": "active",
         "is_configured": whatsapp_client.is_configured,
-        "has_token": bool(WHATSAPP_TOKEN),
-        "has_phone_number_id": bool(WHATSAPP_PHONE_NUMBER_ID),
+        "token_preview": token_preview,
+        "phone_number_id": WHATSAPP_PHONE_NUMBER_ID,
         "verify_token_set": bool(WHATSAPP_VERIFY_TOKEN),
         "api_version": WHATSAPP_API_VERSION,
         "webhook_endpoint": "/api/whatsapp/webhook"
     }
+
+@app.post("/api/whatsapp/test-send")
+def trigger_whatsapp_test_send(to: str = "919429944265"):
+    """Sends a test template message directly from the server to verify connectivity."""
+    endpoint = f"https://graph.facebook.com/{WHATSAPP_API_VERSION}/{WHATSAPP_PHONE_NUMBER_ID}/messages"
+    headers = {"Authorization": f"Bearer {WHATSAPP_TOKEN}", "Content-Type": "application/json"}
+    clean_to = to.strip().replace("+", "").replace(" ", "")
+    payload = {
+        "messaging_product": "whatsapp",
+        "to": clean_to,
+        "type": "template",
+        "template": {"name": "hello_world", "language": {"code": "en_US"}}
+    }
+    resp = requests.post(endpoint, headers=headers, json=payload, timeout=10)
+    try:
+        data = resp.json()
+    except Exception:
+        data = resp.text
+    return {"status_code": resp.status_code, "meta_response": data}
 
 @app.post("/api/whatsapp/simulate")
 async def simulate_whatsapp_message(
