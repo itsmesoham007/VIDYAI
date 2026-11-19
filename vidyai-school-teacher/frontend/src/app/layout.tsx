@@ -1,11 +1,13 @@
 import type { Metadata, Viewport } from 'next';
 import 'katex/dist/katex.min.css';
 import './globals.css';
+import ServiceWorkerRegister from '@/components/ServiceWorkerRegister';
 
 export const viewport: Viewport = {
   themeColor: '#C96442',
   width: 'device-width',
   initialScale: 1,
+  maximumScale: 5,
 };
 
 export const metadata: Metadata = {
@@ -14,7 +16,7 @@ export const metadata: Metadata = {
     default: 'VidyAI — GSEB English Medium Student Portal & AI Teacher (Std 1 to 12)',
     template: '%s | VidyAI GSEB'
   },
-  description: 'Claude-style intelligent school teacher and comprehensive student learning portal for Gujarat Secondary and Higher Secondary Education Board (GSEB) English Medium students from Standard 1 to 12. Includes syllabus mastery tracking, personal revision notebook, past board papers, and timed exam center.',
+  description: 'AI School Teacher for Gujarat Board (GSEB) English Medium students from Standard 1 to 12, powered by Google Gemini.',
   keywords: [
     'GSEB',
     'Gujarat Board',
@@ -70,9 +72,16 @@ export const metadata: Metadata = {
     icon: [
       { url: '/icon.svg', type: 'image/svg+xml' },
       { url: '/logo.png', type: 'image/png' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
     ],
     shortcut: '/logo.png',
-    apple: '/logo.png',
+    apple: '/icon-192.png',
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'VidyAI',
   },
 };
 
@@ -83,7 +92,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full h-[100dvh] overflow-hidden">
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#C96442" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <link rel="apple-touch-icon" href="/icon-192.png" />
+      </head>
       <body className="h-full h-[100dvh] overflow-hidden bg-[#FAF9F5] text-[#1F1E1D] font-sans antialiased selection:bg-[#C96442]/20 selection:text-[#1F1E1D]">
+        <ServiceWorkerRegister />
         {children}
       </body>
     </html>
