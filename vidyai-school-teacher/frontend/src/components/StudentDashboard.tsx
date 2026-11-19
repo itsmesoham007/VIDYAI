@@ -26,7 +26,7 @@ import { api, PortalStats, ChapterMastery, SubjectStat } from '@/lib/api';
 interface StudentDashboardProps {
   grade: number;
   studentName: string;
-  onNavigateToChat: (initialPrompt?: string, targetSubject?: string) => void;
+  onNavigateToChat: (initialPrompt?: string, targetSubject?: string, targetGrade?: number) => void;
   onOpenNotebook: () => void;
   onOpenQuiz: (topic?: string, subject?: string) => void;
   onOpenPapers: () => void;
@@ -499,10 +499,14 @@ export const StudentDashboard: React.FC<StudentDashboardProps> = ({
 
                                 {/* Ask VidyAI button */}
                                 <button
-                                  onClick={() => onNavigateToChat(
-                                    `Let's study GSEB Standard ${grade} ${ch.subject} Chapter ${ch.chapter_no}: "${ch.chapter_title}". Please explain the core definitions and highest-yield board exam questions.`,
-                                    ch.subject
-                                  )}
+                                  onClick={() => {
+                                    const studyPrompt = grade <= 5
+                                      ? `Let's study GSEB Standard ${grade} ${ch.subject} Chapter ${ch.chapter_no}: "${ch.chapter_title}". Please explain this chapter with fun stories, friendly examples, and simple practice questions!`
+                                      : grade <= 8
+                                      ? `Let's study GSEB Standard ${grade} ${ch.subject} Chapter ${ch.chapter_no}: "${ch.chapter_title}". Please explain the key concepts, chapter summary, and textbook question-answers.`
+                                      : `Let's study GSEB Standard ${grade} ${ch.subject} Chapter ${ch.chapter_no}: "${ch.chapter_title}". Please explain the core definitions, derivations, and highest-yield GSEB Board exam questions.`;
+                                    onNavigateToChat(studyPrompt, ch.subject, grade);
+                                  }}
                                   className="px-2.5 py-1 text-[11px] font-semibold text-[#C96442] hover:bg-[#FBF0EB] rounded-lg border border-[#C96442]/30 transition-colors flex items-center gap-1"
                                   title="Study this chapter with AI Teacher"
                                 >

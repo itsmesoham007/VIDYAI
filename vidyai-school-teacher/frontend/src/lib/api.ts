@@ -61,6 +61,39 @@ export interface GsebBook {
   chapters?: GsebChapter[];
 }
 
+export interface ExerciseQuestion {
+  q_no: number;
+  marks: number;
+  section: string;
+  question: string;
+  solution: string;
+  final_answer?: string;
+  board_tip?: string;
+}
+
+export interface ExerciseChapterItem {
+  chapter_no: number;
+  chapter_title: string;
+  subject: string;
+  grade: number;
+  concepts: string;
+  total_questions: number;
+  total_marks: number;
+  has_verified_pdf: boolean;
+}
+
+export interface ExerciseDetailResponse {
+  status: string;
+  grade: number;
+  subject: string;
+  chapter_no: number;
+  chapter_title: string;
+  concepts: string;
+  total_questions: number;
+  total_marks: number;
+  exercises: ExerciseQuestion[];
+}
+
 export interface ModelInfo {
   id: string;
   name: string;
@@ -493,6 +526,30 @@ export const api = {
     const res = await fetch(`${getApiBase()}/api/gseb/download`, { method: 'POST' });
     if (!res.ok) throw new Error(`HTTP error ${res.status}`);
     return await res.json();
+  },
+
+  async getExerciseChapters(grade: number, subject: string): Promise<{ total_chapters: number; chapters: ExerciseChapterItem[] }> {
+    try {
+      const res = await fetch(`${getApiBase()}/api/exercises/chapters?grade=${grade}&subject=${encodeURIComponent(subject)}`, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } catch {
+      return { total_chapters: 0, chapters: [] };
+    }
+  },
+
+  async getExerciseDetail(grade: number, subject: string, chapterNo: number): Promise<ExerciseDetailResponse | null> {
+    try {
+      const res = await fetch(`${getApiBase()}/api/exercises/detail?grade=${grade}&subject=${encodeURIComponent(subject)}&chapter_no=${chapterNo}`, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } catch {
+      return null;
+    }
+  },
+
+  getExercisePdfUrl(grade: number, subject: string, chapterNo: number): string {
+    return `${getApiBase()}/api/exercises/pdf?grade=${grade}&subject=${encodeURIComponent(subject)}&chapter_no=${chapterNo}`;
   },
 
   async getSpecializedModelInfo(): Promise<any> {

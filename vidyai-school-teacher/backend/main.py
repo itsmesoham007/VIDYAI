@@ -32,9 +32,10 @@ import json
 import base64
 import requests
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form, Request, BackgroundTasks, Query
-from fastapi.responses import StreamingResponse, PlainTextResponse
+from fastapi.responses import StreamingResponse, PlainTextResponse, Response
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
+import exercise_engine
 
 from config import (
     HOST,
@@ -250,6 +251,68 @@ def trigger_gseb_download():
         "rag_chunks_loaded": len(rag_pipeline.in_memory_docs),
         "details": result
     }
+
+# ==========================================
+# Exercise Zone (Swadhyay) Endpoints
+# ==========================================
+
+@app.get("/api/exercises/chapters")
+def get_exercise_chapters(grade: int = Query(10), subject: str = Query("Mathematics")):
+    """Returns list of chapters for a grade and subject with exercise question counts."""
+    chapters = exercise_engine.list_exercise_chapters(grade, subject)
+    return {
+        "status": "success",
+        "grade": grade,
+        "subject": subject,
+        "total_chapters": len(chapters),
+        "chapters": chapters
+    }
+
+@app.get("/api/exercises/detail")
+def get_exercise_detail(
+    grade: int = Query(10), 
+    subject: str = Query("Mathematics"), 
+    chapter_no: int = Query(1)
+):
+    """Returns verified exercise questions, options, step-by-step solutions, and board tips."""
+    chapter_title, concepts = exercise_engine.get_chapter_title_and_concepts(grade, subject, chapter_no)
+    exercises = exercise_engine.get_chapter_exercises(grade, subject, chapter_no)
+    total_marks = sum(q.get("marks", 1) for q in exercises)
+    return {
+        "status": "success",
+        "grade": grade,
+        "subject": subject,
+        "chapter_no": chapter_no,
+        "chapter_title": chapter_title,
+        "concepts": concepts,
+        "total_questions": len(exercises),
+        "total_marks": total_marks,
+        "exercises": exercises
+    }
+
+@app.get("/api/exercises/pdf")
+def get_exercise_pdf(
+    grade: int = Query(10), 
+    subject: str = Query("Mathematics"), 
+    chapter_no: int = Query(1)
+):
+    """Generates and streams an authentic GSEB Textbook Solved Exercise PDF."""
+    try:
+        pdf_bytes = exercise_engine.generate_exercise_pdf(grade, subject, chapter_no)
+        chapter_title, _ = exercise_engine.get_chapter_title_and_concepts(grade, subject, chapter_no)
+        clean_title = "".join(c if c.isalnum() else "_" for c in chapter_title)[:30]
+        filename = f"GSEB_Std{grade}_{subject}_Ch{chapter_no}_{clean_title}_Exercise.pdf"
+        return Response(
+            content=pdf_bytes,
+            media_type="application/pdf",
+            headers={
+                "Content-Disposition": f'inline; filename="{filename}"',
+                "Content-Type": "application/pdf"
+            }
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to generate exercise PDF: {str(e)}")
+
 
 @app.get("/api/model/specialized")
 def get_specialized_model_details():

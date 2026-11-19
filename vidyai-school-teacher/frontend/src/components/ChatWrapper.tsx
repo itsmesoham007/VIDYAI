@@ -75,6 +75,7 @@ export const ChatWrapper: React.FC<ChatWrapperProps> = ({
 }) => {
   // Session Configuration
   const [grade, setGrade] = useState<number>(initialGrade);
+  const [consultingGrade, setConsultingGrade] = useState<number>(initialGrade);
   const [subject, setSubject] = useState<string>(initialSubject);
   const [language, setLanguage] = useState<string>(initialLanguage);
   const [socraticMode, setSocraticMode] = useState<boolean>(initialSocratic);
@@ -116,6 +117,7 @@ export const ChatWrapper: React.FC<ChatWrapperProps> = ({
   useEffect(() => {
     if (initialGrade !== undefined && initialGrade !== grade) {
       setGrade(initialGrade);
+      setConsultingGrade(initialGrade);
     }
   }, [initialGrade]);
 
@@ -267,11 +269,14 @@ export const ChatWrapper: React.FC<ChatWrapperProps> = ({
     const stdMatch = textToSend.match(/\b(?:standard|std|class)\s*(\d{1,2})\b/i);
     if (stdMatch) {
       const parsedG = parseInt(stdMatch[1], 10);
-      if (parsedG >= 1 && parsedG <= 12 && parsedG !== grade) {
+      if (parsedG >= 1 && parsedG <= 12) {
         activeGrade = parsedG;
         setGrade(parsedG);
+        setConsultingGrade(parsedG);
         onGradeChange?.(parsedG);
       }
+    } else {
+      setConsultingGrade(grade);
     }
 
     // Auto-detect or align subject to the active standard
@@ -827,7 +832,7 @@ export const ChatWrapper: React.FC<ChatWrapperProps> = ({
               {isLoading && !streamingText && (
                 <div className="flex items-center gap-2 p-3 text-xs text-[#6B6862]">
                   <VidyAILogo size={18} animated={true} />
-                  <span>Consulting GSEB Standard {grade} curriculum...</span>
+                  <span>Consulting GSEB Standard {consultingGrade || grade} curriculum...</span>
                 </div>
               )}
 
@@ -933,8 +938,8 @@ export const ChatWrapper: React.FC<ChatWrapperProps> = ({
           </div>
 
           {/* Claude Subtext */}
-          <p className="text-center text-[11px] text-[#949088] mt-2">
-            VidyAI is aligned with GSEB English Medium (Standards 1 to 12) • Created & Developed by Soham Rajpurohit
+          <p className="text-center text-[11px] text-[#949088] mt-1.5">
+            VidyAI is strictly aligned with GSEB English Medium (Standards 1 to 12)
           </p>
         </div>
       </div>

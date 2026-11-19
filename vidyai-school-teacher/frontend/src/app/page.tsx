@@ -22,7 +22,10 @@ import {
   Bookmark,
   FileText,
   Award,
-  Play
+  Play,
+  Heart,
+  Code2,
+  BookCheck
 } from 'lucide-react';
 import { IntroVideoSplash } from '@/components/IntroVideoSplash';
 import { GradeSelectorModal } from '@/components/GradeSelectorModal';
@@ -41,6 +44,7 @@ import { StudentDashboard } from '@/components/StudentDashboard';
 import { StudyNotebook } from '@/components/StudyNotebook';
 import { GsebPapersHub } from '@/components/GsebPapersHub';
 import { TestCenter } from '@/components/TestCenter';
+import { ExerciseZone } from '@/components/ExerciseZone';
 
 import { PrimaryJuniorUI } from '@/components/PrimaryJuniorUI';
 import { SeniorAcademicUI } from '@/components/SeniorAcademicUI';
@@ -55,7 +59,7 @@ function getGsebSubjects(g: number): string[] {
   return ['Physics', 'Chemistry', 'Biology', 'Mathematics', 'English', 'Computer Studies'];
 }
 
-export type PortalViewMode = 'chat' | 'dashboard' | 'notebook' | 'papers' | 'test_center' | 'classroom';
+export type PortalViewMode = 'chat' | 'dashboard' | 'exercise_zone' | 'notebook' | 'papers' | 'test_center' | 'classroom';
 
 export default function Home() {
   const [viewMode, setViewMode] = useState<PortalViewMode>('chat');
@@ -359,6 +363,22 @@ export default function Home() {
 
   const isPrimary = grade <= 5;
 
+  const handleSaveToNotebook = async (title: string, content: string, noteSubject: string) => {
+    try {
+      const studentId = `stu_${(studentName || 'student').toLowerCase().replace(/\s+/g, '_')}`;
+      await api.createStudyNote({
+        student_id: studentId,
+        standard: grade,
+        subject: noteSubject,
+        title,
+        content,
+        tags: ['exercise_zone', 'swadhyay']
+      });
+    } catch (e) {
+      console.warn('Auto-save note fallback:', e);
+    }
+  };
+
   const closeMobileSidebar = () => {
     if (typeof window !== 'undefined' && window.innerWidth < 768) {
       setIsSidebarOpen(false);
@@ -474,6 +494,26 @@ export default function Home() {
             >
               <BarChart3 className="w-4 h-4 text-[#C96442]" />
               <span>Student Dashboard</span>
+            </button>
+
+            <button
+              onClick={() => {
+                setViewMode('exercise_zone');
+                closeMobileSidebar();
+              }}
+              className={`w-full py-2 px-3 rounded-xl text-xs font-medium flex items-center justify-between transition-all ${
+                viewMode === 'exercise_zone'
+                  ? 'bg-white text-[#1F1E1D] border border-[#E5E3DC] shadow-xs font-bold'
+                  : 'text-[#6B6862] hover:text-[#1F1E1D] hover:bg-[#EAE7DF]'
+              }`}
+            >
+              <div className="flex items-center gap-2.5">
+                <BookCheck className="w-4 h-4 text-[#C96442]" />
+                <span>Exercise Zone (Swadhyay)</span>
+              </div>
+              <span className="text-[9px] bg-[#C96442]/10 text-[#C96442] px-1.5 py-0.2 rounded-md font-bold">
+                Book PDF
+              </span>
             </button>
 
             <button
@@ -783,6 +823,23 @@ export default function Home() {
             </button>
 
             <button
+              onClick={() => setViewMode('exercise_zone')}
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+                viewMode === 'exercise_zone'
+                  ? 'bg-[#C96442] text-white shadow-xs'
+                  : 'bg-[#FAF9F5] text-[#6B6862] hover:bg-[#F3F1EC] border border-[#E5E3DC]'
+              }`}
+            >
+              <BookCheck className="w-3.5 h-3.5" />
+              <span>Exercise Zone</span>
+              <span className={`text-[9px] px-1.5 py-0.2 rounded-md font-bold ${
+                viewMode === 'exercise_zone' ? 'bg-white/20 text-white' : 'bg-[#C96442]/10 text-[#C96442]'
+              }`}>
+                PDF
+              </span>
+            </button>
+
+            <button
               onClick={() => setViewMode('notebook')}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
                 viewMode === 'notebook'
@@ -880,7 +937,8 @@ export default function Home() {
           <StudentDashboard
             grade={grade}
             studentName={studentName}
-            onNavigateToChat={(prompt, targetSub) => {
+            onNavigateToChat={(prompt, targetSub, targetGrade) => {
+              if (targetGrade) handleSelectGrade(targetGrade);
               if (targetSub) setSubject(targetSub);
               if (prompt) setChatInitialPrompt(prompt);
               setViewMode('chat');
@@ -892,6 +950,22 @@ export default function Home() {
             }}
             onOpenPapers={() => setViewMode('papers')}
             onGradeChange={(g) => handleSelectGrade(g)}
+          />
+        )}
+
+        {viewMode === 'exercise_zone' && (
+          <ExerciseZone
+            grade={grade}
+            initialSubject={subject}
+            studentName={studentName}
+            onNavigateToChat={(prompt, targetSub, targetGrade) => {
+              if (targetGrade) handleSelectGrade(targetGrade);
+              if (targetSub) setSubject(targetSub);
+              if (prompt) setChatInitialPrompt(prompt);
+              setViewMode('chat');
+            }}
+            onSaveToNotebook={handleSaveToNotebook}
+            onOpenGradeModal={() => setIsLoginModalOpen(true)}
           />
         )}
 
@@ -997,6 +1071,36 @@ export default function Home() {
             </div>
           </div>
         )}
+
+        {/* 3. Persistent Global Bottom Bar: Coded & Crafted by Soham */}
+        <footer className="flex-shrink-0 bg-[#F3F1EC] border-t border-[#E5E3DC] px-3 sm:px-5 py-2 flex items-center justify-between text-[11px] text-[#6B6862] z-30 select-none shadow-2xs">
+          {/* Left: Server Status */}
+          <div className="flex items-center gap-2">
+            <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-800 border border-emerald-500/20 text-[10px] font-bold">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+              <span>Live Public Servers</span>
+            </span>
+            <span className="hidden sm:inline text-[#8C827A] text-[11px]">
+              • GSEB English Medium (Std 1–12)
+            </span>
+          </div>
+
+          {/* Center: Coded & Crafted by Soham */}
+          <div className="flex items-center gap-1.5 text-[11px] font-medium text-[#1F1E1D]">
+            <Code2 className="w-3.5 h-3.5 text-[#C96442]" />
+            <span className="text-[#6B6862]">Coded & crafted with</span>
+            <Heart className="w-3 h-3 text-rose-500 fill-rose-500 inline-block animate-pulse" />
+            <span>by <strong className="text-[#C96442] font-bold tracking-tight">Soham</strong></span>
+          </div>
+
+          {/* Right: Engine Badge */}
+          <div className="flex items-center gap-2 text-[10px] text-[#8C827A]">
+            <span className="hidden md:inline">Google Gemini 3.1 & GSSTB RAG</span>
+            <span className="px-1.5 py-0.5 rounded bg-white border border-[#E5E3DC] font-mono font-bold text-[#6B6862] shadow-2xs">
+              v2.5 PROD
+            </span>
+          </div>
+        </footer>
       </div>
 
       {/* 0. Cinematic Intro Splash Screen */}
