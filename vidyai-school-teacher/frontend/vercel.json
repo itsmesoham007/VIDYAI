@@ -2,9 +2,15 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
   "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://vidyai-backend-m4lj.onrender.com/api/:path*"
+    }
+  ],
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/((?!api/).*)",
       "headers": [
         {
           "key": "X-Content-Type-Options",
@@ -12,7 +18,7 @@
         },
         {
           "key": "X-Frame-Options",
-          "value": "DENY"
+          "value": "SAMEORIGIN"
         },
         {
           "key": "X-XSS-Protection",
