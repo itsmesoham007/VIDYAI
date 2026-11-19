@@ -158,4 +158,39 @@ class QuizAttemptRecordRequest(BaseModel):
     mistakes_summary: Optional[List[Any]] = Field(default_factory=list)
 
 
+# --- Custom Homework & Exercise Solver Schemas (Option 1) ---
+class CustomExerciseSolveRequest(BaseModel):
+    question: str = Field(..., description="The homework question or problem statement")
+    grade: int = Field(default=10, ge=1, le=12, description="GSEB Standard 1 to 12")
+    subject: str = Field(default="Mathematics", description="Subject name")
+    mode: str = Field(default="notebook", description="'hint' (Socratic) or 'notebook' (Exam model answer)")
+    include_gujarati: Optional[bool] = Field(default=True, description="Include Gujarati translations for terminology")
+    simple_language: Optional[bool] = Field(default=False, description="Simplify vocabulary for younger students")
+
+class BilingualGlossaryItem(BaseModel):
+    english_term: str
+    gujarati_term: str
+    definition: str
+
+class TwinQuestion(BaseModel):
+    question: str
+    hint: str
+    solution: str
+    final_answer: str
+
+class CustomExerciseSolveResponse(BaseModel):
+    question: str
+    grade: int
+    subject: str
+    mode: str
+    solution_steps: List[str]
+    model_answer: str
+    final_answer: str
+    board_tip: Optional[str] = None
+    bilingual_glossary: List[BilingualGlossaryItem] = Field(default_factory=list)
+    twin_question: Optional[TwinQuestion] = None
+    creator_attribution: str = "VidyAI GSEB English Medium • Coded & crafted by Soham Rajpurohit"
+
+
+
 

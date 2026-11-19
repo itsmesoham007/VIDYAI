@@ -94,6 +94,42 @@ export interface ExerciseDetailResponse {
   exercises: ExerciseQuestion[];
 }
 
+export interface BilingualGlossaryItem {
+  english_term: string;
+  gujarati_term: string;
+  definition: string;
+}
+
+export interface TwinQuestion {
+  question: string;
+  hint: string;
+  solution: string;
+  final_answer: string;
+}
+
+export interface CustomExerciseSolveRequest {
+  question: string;
+  grade: number;
+  subject: string;
+  mode: 'hint' | 'notebook';
+  include_gujarati?: boolean;
+  simple_language?: boolean;
+}
+
+export interface CustomExerciseSolveResponse {
+  question: string;
+  grade: number;
+  subject: string;
+  mode: string;
+  solution_steps: string[];
+  model_answer: string;
+  final_answer: string;
+  board_tip?: string;
+  bilingual_glossary: BilingualGlossaryItem[];
+  twin_question?: TwinQuestion;
+  creator_attribution: string;
+}
+
 export interface ModelInfo {
   id: string;
   name: string;
@@ -550,6 +586,18 @@ export const api = {
 
   getExercisePdfUrl(grade: number, subject: string, chapterNo: number): string {
     return `${getApiBase()}/api/exercises/pdf?grade=${grade}&subject=${encodeURIComponent(subject)}&chapter_no=${chapterNo}`;
+  },
+
+  async solveCustomExercise(req: CustomExerciseSolveRequest): Promise<CustomExerciseSolveResponse> {
+    const res = await fetch(`${getApiBase()}/api/exercises/solve-custom`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(req)
+    });
+    if (!res.ok) {
+      throw new Error(`Failed to solve exercise: HTTP ${res.status}`);
+    }
+    return await res.json();
   },
 
   async getSpecializedModelInfo(): Promise<any> {

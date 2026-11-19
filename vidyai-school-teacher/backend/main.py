@@ -67,7 +67,9 @@ from models import (
     StudentProfileRequest,
     ChapterMasteryUpdateRequest,
     StudyNoteCreateRequest,
-    QuizAttemptRecordRequest
+    QuizAttemptRecordRequest,
+    CustomExerciseSolveRequest,
+    CustomExerciseSolveResponse
 )
 from teacher_engine import teacher_engine, extract_image_subject, generate_educational_image_url
 from rag_pipeline import rag_pipeline
@@ -312,6 +314,27 @@ def get_exercise_pdf(
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to generate exercise PDF: {str(e)}")
+
+
+@app.post("/api/exercises/solve-custom", response_model=CustomExerciseSolveResponse)
+def solve_custom_exercise_endpoint(req: CustomExerciseSolveRequest):
+    """
+    Solves any custom homework or exercise question submitted by the student.
+    Provides Socratic Hint Mode, Notebook-Ready GSEB model answer, Bilingual glossary, and Practice Twin Question.
+    """
+    try:
+        result = teacher_engine.solve_custom_exercise(
+            question=req.question,
+            grade=req.grade,
+            subject=req.subject,
+            mode=req.mode,
+            include_gujarati=req.include_gujarati if req.include_gujarati is not None else True,
+            simple_language=req.simple_language if req.simple_language is not None else False
+        )
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Custom exercise solve failed: {str(e)}")
+
 
 
 @app.get("/api/model/specialized")
