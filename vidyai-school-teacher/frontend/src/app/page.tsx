@@ -44,7 +44,6 @@ import { StudentDashboard } from '@/components/StudentDashboard';
 import { StudyNotebook } from '@/components/StudyNotebook';
 import { GsebPapersHub } from '@/components/GsebPapersHub';
 import { TestCenter } from '@/components/TestCenter';
-import { ExerciseZone } from '@/components/ExerciseZone';
 
 import { PrimaryJuniorUI } from '@/components/PrimaryJuniorUI';
 import { SeniorAcademicUI } from '@/components/SeniorAcademicUI';
@@ -59,7 +58,7 @@ function getGsebSubjects(g: number): string[] {
   return ['Physics', 'Chemistry', 'Biology', 'Mathematics', 'English', 'Computer Studies'];
 }
 
-export type PortalViewMode = 'chat' | 'dashboard' | 'exercise_zone' | 'notebook' | 'papers' | 'test_center' | 'classroom';
+export type PortalViewMode = 'chat' | 'dashboard' | 'notebook' | 'papers' | 'test_center' | 'classroom';
 
 export default function Home() {
   const [viewMode, setViewMode] = useState<PortalViewMode>('chat');
@@ -372,7 +371,7 @@ export default function Home() {
         subject: noteSubject,
         title,
         content,
-        tags: ['exercise_zone', 'swadhyay']
+        tags: ['study_notes', 'swadhyay']
       });
     } catch (e) {
       console.warn('Auto-save note fallback:', e);
@@ -494,26 +493,6 @@ export default function Home() {
             >
               <BarChart3 className="w-4 h-4 text-[#C96442]" />
               <span>Student Dashboard</span>
-            </button>
-
-            <button
-              onClick={() => {
-                setViewMode('exercise_zone');
-                closeMobileSidebar();
-              }}
-              className={`w-full py-2 px-3 rounded-xl text-xs font-medium flex items-center justify-between transition-all ${
-                viewMode === 'exercise_zone'
-                  ? 'bg-white text-[#1F1E1D] border border-[#E5E3DC] shadow-xs font-bold'
-                  : 'text-[#6B6862] hover:text-[#1F1E1D] hover:bg-[#EAE7DF]'
-              }`}
-            >
-              <div className="flex items-center gap-2.5">
-                <BookCheck className="w-4 h-4 text-[#C96442]" />
-                <span>Exercise Zone (Swadhyay)</span>
-              </div>
-              <span className="text-[9px] bg-[#C96442]/10 text-[#C96442] px-1.5 py-0.2 rounded-md font-bold">
-                Book PDF
-              </span>
             </button>
 
             <button
@@ -823,23 +802,6 @@ export default function Home() {
             </button>
 
             <button
-              onClick={() => setViewMode('exercise_zone')}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
-                viewMode === 'exercise_zone'
-                  ? 'bg-[#C96442] text-white shadow-xs'
-                  : 'bg-[#FAF9F5] text-[#6B6862] hover:bg-[#F3F1EC] border border-[#E5E3DC]'
-              }`}
-            >
-              <BookCheck className="w-3.5 h-3.5" />
-              <span>Exercise Zone</span>
-              <span className={`text-[9px] px-1.5 py-0.2 rounded-md font-bold ${
-                viewMode === 'exercise_zone' ? 'bg-white/20 text-white' : 'bg-[#C96442]/10 text-[#C96442]'
-              }`}>
-                PDF
-              </span>
-            </button>
-
-            <button
               onClick={() => setViewMode('notebook')}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
                 viewMode === 'notebook'
@@ -950,22 +912,6 @@ export default function Home() {
             }}
             onOpenPapers={() => setViewMode('papers')}
             onGradeChange={(g) => handleSelectGrade(g)}
-          />
-        )}
-
-        {viewMode === 'exercise_zone' && (
-          <ExerciseZone
-            grade={grade}
-            initialSubject={subject}
-            studentName={studentName}
-            onNavigateToChat={(prompt, targetSub, targetGrade) => {
-              if (targetGrade) handleSelectGrade(targetGrade);
-              if (targetSub) setSubject(targetSub);
-              if (prompt) setChatInitialPrompt(prompt);
-              setViewMode('chat');
-            }}
-            onSaveToNotebook={handleSaveToNotebook}
-            onOpenGradeModal={() => setIsLoginModalOpen(true)}
           />
         )}
 
