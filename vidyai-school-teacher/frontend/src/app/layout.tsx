@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     template: '%s | VidyAI GSEB'
   },
   description: 'AI School Teacher for Gujarat Board (GSEB) English Medium students from Standard 1 to 12, powered by Google Gemini.',
+  manifest: '/manifest.json',
   keywords: [
     'GSEB',
     'Gujarat Board',

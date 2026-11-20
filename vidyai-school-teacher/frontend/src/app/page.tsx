@@ -86,6 +86,29 @@ export default function Home() {
   const [isFirstVisit, setIsFirstVisit] = useState<boolean>(false);
   const [showIntro, setShowIntro] = useState<boolean>(true);
 
+  // Exact GSEB English Medium textbook counts per Standard
+  const getStandardBookCount = (g: number): number => {
+    if (g <= 2) return 7;
+    if (g <= 5) return 8;
+    if (g <= 8) return 12;
+    if (g <= 10) return 14;
+    return 28;
+  };
+
+  const [standardBookCount, setStandardBookCount] = useState<number>(() => getStandardBookCount(grade));
+
+  useEffect(() => {
+    api.getGsebBooks(grade).then(res => {
+      if (res && res.total_books > 0) {
+        setStandardBookCount(res.total_books);
+      } else {
+        setStandardBookCount(getStandardBookCount(grade));
+      }
+    }).catch(() => {
+      setStandardBookCount(getStandardBookCount(grade));
+    });
+  }, [grade]);
+
   // Chat History Engine State (vidyai_chat_sessions_v1)
   const [chatHistoryEngine, setChatHistoryEngine] = useState<VidyAIChatHistory | null>(null);
   const [chatSessions, setChatSessions] = useState<ChatSession[]>([]);
@@ -552,7 +575,7 @@ export default function Home() {
                 <span>Std {grade} Textbooks</span>
               </span>
               <span className="text-[10px] bg-[#C96442]/10 text-[#C96442] px-2 py-0.5 rounded-full font-bold">
-                Std {grade}
+                {standardBookCount} Books
               </span>
             </button>
 
@@ -725,6 +748,19 @@ export default function Home() {
 
           {/* Sidebar Bottom: Student Profile & Switch Standard */}
           <div className="p-3 border-t border-[#E5E3DC] bg-[#EFECE5]">
+            {/* Replay Intro Button for School Demo */}
+            <button
+              onClick={() => {
+                setShowIntro(true);
+                closeMobileSidebar();
+              }}
+              className="w-full mb-2.5 py-1.5 px-3 rounded-xl bg-white hover:bg-[#FAF9F5] border border-[#E5E3DC] text-[#C96442] hover:text-[#B35334] flex items-center justify-center gap-1.5 text-xs font-bold shadow-2xs transition-all active:scale-98"
+              title="Replay Cinematic Intro Video for School Demo"
+            >
+              <Play className="w-3.5 h-3.5 fill-[#C96442] text-[#C96442]" />
+              <span>▶ Replay Intro</span>
+            </button>
+
             <div className="flex items-center justify-between">
               <div 
                 onClick={() => setIsLoginModalOpen(true)}

@@ -4,8 +4,11 @@ const backendUrl = (process.env.NEXT_PUBLIC_API_URL || 'https://vidyai-backend-m
 const nextConfig = {
   reactStrictMode: true,
   transpilePackages: ['lucide-react'],
-  webpack: (config) => {
+  webpack: (config, { dev }) => {
     config.resolve.fallback = { fs: false, path: false };
+    if (!dev) {
+      config.cache = false;
+    }
     return config;
   },
   async rewrites() {
